@@ -8,6 +8,60 @@
 </head>
 <body>
     
+<h2 class="title">YAY! It’s BOGO</h2>
+  <div class="box-container">
+
+    <!-- 1 Unit -->
+    <div class="box active" data-box="1">
+      <div class="box-header">
+        <input type="radio" name="unit" checked />
+        <span class="unit-title">1 Unit</span>
+        <span class="discount">10% Off</span>
+        <span class="price">$10.00 USD <del>$24.00 USD</del></span>
+      </div>
+    </div>
+
+    <!-- 2 Unit -->
+    <div class="box" data-box="2">
+      <div class="box-header">
+        <input type="radio" name="unit" />
+        <span class="unit-title">2 Unit</span>
+        <span class="discount">20% Off</span>
+        <span class="price">$18.00 USD <del>$24.00 USD</del></span>
+        <span class="popular-badge">Most Popular</span>
+      </div>
+      <div class="box-content">
+        <div class="item">
+          <label>#1</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>Blue</option></select>
+        </div>
+        <div class="item">
+          <label>#2</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Colour</option><option>Red</option></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Unit -->
+    <div class="box" data-box="3">
+      <div class="box-header">
+        <input type="radio" name="unit" />
+        <span class="unit-title">3 Unit</span>
+        <span class="discount">30% Off</span>
+        <span class="price">$24.00 USD <del>$24.00 USD</del></span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="summary">
+    <span class="delivery">Free Delivery</span>
+    <span class="total">Total: $18.00 USD</span>
+  </div>
+
+  <button class="add-to-cart">+ Add to Cart</button>
 
     <script src="script.js"></script>
 </body>

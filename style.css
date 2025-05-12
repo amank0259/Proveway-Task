@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.title {
+    text-align: center;
+    color: #FF6B82;
+}
+
+.box-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.box.active {
+    border: 2px solid #FF6B82;
+    background-color: #fff0f5;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.unit-title {
+    font-weight: bold;
+}
+
+.discount {
+    background: #FF6B82;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.price {
+    margin-left: auto;
+    font-size: 0.9rem;
+}
+
+.price del {
+    color: #999;
+    font-size: 0.8rem;
+    margin-left: 4px;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #FF6B82;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 0.7rem;
+    border-radius: 0 6px 0 6px;
+}
+
+.box-content {
+    margin-top: 10px;
+    display: none;
+}
+
+.box.active .box-content {
+    display: block;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.delivery {
+    color: #FF6B82;
+}
+
+.add-to-cart {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    background: #FF6B82;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
